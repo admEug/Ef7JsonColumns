@@ -10,7 +10,7 @@ namespace Ef7JsonColumns.Data
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder
-                .UseSqlServer("Server=.\\SQLExpress;Database=superherotestdb;Trusted_Connection=true;TrustServerCertificate=true;");
+                .UseSqlServer("server=localhost;database=Ef7JsonColumns;Trusted_Connection=true;Encrypt=True;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

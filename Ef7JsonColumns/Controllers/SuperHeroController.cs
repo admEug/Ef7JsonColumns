@@ -1,11 +1,10 @@
 ﻿using Ef7JsonColumns.Data;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ef7JsonColumns.Controllers
 {
-    [Route("api/[controller]")]
+	[Route("api/[controller]")]
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
